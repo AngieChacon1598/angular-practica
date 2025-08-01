@@ -1,9 +1,7 @@
 import { Routes } from '@angular/router';
-import { UserContainer } from './components/user-container/user-container';
+import { CounterComponent } from './counter/counter';
 
 export const routes: Routes = [
-  {
-    path: '',
-    component: UserContainer
-  }
+  { path: 'counter', component: CounterComponent },
+  { path: '', redirectTo: 'counter', pathMatch: 'full' }
 ];
