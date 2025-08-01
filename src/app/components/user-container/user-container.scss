@@ -1,0 +1,22 @@
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mensaje-info {
+  color: #1976d2;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 30px auto 0 auto;
+  display: block;
+  width: 100%;
+}
