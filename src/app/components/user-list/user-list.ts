@@ -9,5 +9,5 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule]
 })
 export class UserList {
-  @Input() users: any[] = [];
+  @Input() users: string[] = [];
 }
